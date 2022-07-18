@@ -1,0 +1,177 @@
+;
+; GERTEC BRASIL  Copyright (c) GERTEC.
+;
+; Windows USB CDC ACM Setup File
+;
+
+[Version] 
+Signature="$Windows NT$" 
+Class=Ports 
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318} 
+Provider=%MFGNAME% 
+LayoutFile=layout.inf 
+CatalogFile=SAT-A10_usb_cdc.cat 
+DriverVer=11/05/2014,5.1.2600.0 
+
+[Manufacturer] 
+%MFGNAME%=DeviceList, NTx86, NTia64, NTamd64 
+
+[DestinationDirs] 
+DefaultDestDir=12 
+
+;------------------------------------------------------------------------------
+;  Windows 2000/XP/Vista/7/8 32bit Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall.NTx86] 
+include=mdmcpq.inf 
+CopyFiles=DriverCopyFiles.NTx86 
+AddReg=DriverInstall.NTx86.AddReg 
+
+[DriverCopyFiles.NTx86]
+usbser.sys,,,0x20
+
+[DriverInstall.NTx86.AddReg] 
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[DriverInstall.NTx86.Services] 
+AddService=usbser, 0x00000002, DriverService.NTx86 
+
+[DriverService.NTx86]
+DisplayName=%SERVICE%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+
+;------------------------------------------------------------------------------
+;  Windows Vista/7/8 64bit Sections
+;------------------------------------------------------------------------------
+
+[DriverInstall.NTamd64] 
+include=mdmcpq.inf 
+CopyFiles=DriverCopyFiles.NTamd64 
+AddReg=DriverInstall.NTamd64.AddReg 
+
+[DriverCopyFiles.NTamd64] 
+usbser.sys,,,0x20 
+
+[DriverInstall.NTamd64.AddReg] 
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[DriverInstall.NTamd64.Services] 
+AddService=usbser, 0x00000002, DriverService.NTamd64
+
+[DriverService.NTamd64]
+DisplayName=%SERVICE%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+
+;------------------------------------------------------------------------------
+;  64 bit section for Intel Itanium based systems
+;------------------------------------------------------------------------------
+
+[DriverInstall.NTia64] 
+include=mdmcpq.inf 
+CopyFiles=DriverCopyFiles.NTia64 
+AddReg=DriverInstall.NTia64.AddReg 
+
+[DriverCopyFiles.NTia64] 
+usbser.sys,,,0x20 
+
+[DriverInstall.NTia64.AddReg] 
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[DriverInstall.NTia64.Services] 
+AddService=usbser, 0x00000002, DriverService.NTia64 
+
+[DriverService.NTia64]
+DisplayName=%SERVICE%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\usbser.sys
+
+;------------------------------------------------------------------------------
+;  Common Sections
+;------------------------------------------------------------------------------
+[SourceDisksFiles]
+[SourceDisksNames]
+
+;------------------------------------------------------------------------------
+;  Vendor and Product ID Definitions
+;------------------------------------------------------------------------------
+[DeviceList.NTx86]
+%DESCRIPTION.GENCDC% = DriverInstall, USB\VID_1753&PID_0CDC
+%DESCRIPTION.P40CDC% = DriverInstall, USB\VID_1753&PID_D400
+%DESCRIPTION.P41CDC% = DriverInstall, USB\VID_1753&PID_D401
+%DESCRIPTION.P20CDC% = DriverInstall, USB\VID_1753&PID_D200
+%DESCRIPTION.P21CDC% = DriverInstall, USB\VID_1753&PID_D201
+%DESCRIPTION.P50CDC% = DriverInstall, USB\VID_1753&PID_D500
+%DESCRIPTION.P51CDC% = DriverInstall, USB\VID_1753&PID_D501
+%DESCRIPTION.P70CDC% = DriverInstall, USB\VID_1753&PID_D700
+%DESCRIPTION.DTRCDC% = DriverInstall, USB\VID_1753&PID_0601
+%DESCRIPTION.POPCDC% = DriverInstall, USB\VID_1753&PID_0900
+%DESCRIPTION.ST1CDC% = DriverInstall, USB\VID_1753&PID_0A01, USB\VID_1753&PID_0A01&MI_00
+%DESCRIPTION.ST2CDC% = DriverInstall, USB\VID_1753&PID_0A02, USB\VID_1753&PID_0A02&MI_00
+%DESCRIPTION.ST3CDC% = DriverInstall, USB\VID_1753&PID_0A03, USB\VID_1753&PID_0A03&MI_00
+%DESCRIPTION.PQRCDC% = DriverInstall, USB\VID_1753&PID_8002
+%DESCRIPTION.CT1CDC% = DriverInstall, USB\VID_0CA6&PID_A030
+%DESCRIPTION.CT2CDC% = DriverInstall, USB\VID_0CA6&PID_A050
+
+[DeviceList.NTamd64] 
+%DESCRIPTION.GENCDC% = DriverInstall, USB\VID_1753&PID_0CDC
+%DESCRIPTION.P40CDC% = DriverInstall, USB\VID_1753&PID_D400
+%DESCRIPTION.P41CDC% = DriverInstall, USB\VID_1753&PID_D401
+%DESCRIPTION.P20CDC% = DriverInstall, USB\VID_1753&PID_D200
+%DESCRIPTION.P21CDC% = DriverInstall, USB\VID_1753&PID_D201
+%DESCRIPTION.P50CDC% = DriverInstall, USB\VID_1753&PID_D500
+%DESCRIPTION.P51CDC% = DriverInstall, USB\VID_1753&PID_D501
+%DESCRIPTION.P70CDC% = DriverInstall, USB\VID_1753&PID_D700
+%DESCRIPTION.DTRCDC% = DriverInstall, USB\VID_1753&PID_0601
+%DESCRIPTION.POPCDC% = DriverInstall, USB\VID_1753&PID_0900
+%DESCRIPTION.ST1CDC% = DriverInstall, USB\VID_1753&PID_0A01, USB\VID_1753&PID_0A01&MI_00
+%DESCRIPTION.ST2CDC% = DriverInstall, USB\VID_1753&PID_0A02, USB\VID_1753&PID_0A02&MI_00
+%DESCRIPTION.ST3CDC% = DriverInstall, USB\VID_1753&PID_0A03, USB\VID_1753&PID_0A03&MI_00
+%DESCRIPTION.PQRCDC% = DriverInstall, USB\VID_1753&PID_8002
+%DESCRIPTION.CT1CDC% = DriverInstall, USB\VID_0CA6&PID_A030
+%DESCRIPTION.CT2CDC% = DriverInstall, USB\VID_0CA6&PID_A050
+
+[DeviceList.NTia64]
+%DESCRIPTION.GENCDC% = DriverInstall, USB\VID_1753&PID_0CDC
+%DESCRIPTION.P40CDC% = DriverInstall, USB\VID_1753&PID_D400
+%DESCRIPTION.P41CDC% = DriverInstall, USB\VID_1753&PID_D401
+%DESCRIPTION.P20CDC% = DriverInstall, USB\VID_1753&PID_D200
+%DESCRIPTION.P21CDC% = DriverInstall, USB\VID_1753&PID_D201
+%DESCRIPTION.P50CDC% = DriverInstall, USB\VID_1753&PID_D500
+%DESCRIPTION.P51CDC% = DriverInstall, USB\VID_1753&PID_D501
+%DESCRIPTION.P70CDC% = DriverInstall, USB\VID_1753&PID_D700
+%DESCRIPTION.DTRCDC% = DriverInstall, USB\VID_1753&PID_0601
+%DESCRIPTION.POPCDC% = DriverInstall, USB\VID_1753&PID_0900
+%DESCRIPTION.ST1CDC% = DriverInstall, USB\VID_1753&PID_0A01, USB\VID_1753&PID_0A01&MI_00
+%DESCRIPTION.ST2CDC% = DriverInstall, USB\VID_1753&PID_0A02, USB\VID_1753&PID_0A02&MI_00
+%DESCRIPTION.ST3CDC% = DriverInstall, USB\VID_1753&PID_0A03, USB\VID_1753&PID_0A03&MI_00
+%DESCRIPTION.PQRCDC% = DriverInstall, USB\VID_1753&PID_8002
+%DESCRIPTION.CT1CDC% = DriverInstall, USB\VID_0CA6&PID_A030
+%DESCRIPTION.CT2CDC% = DriverInstall, USB\VID_0CA6&PID_A050
+
+
+;------------------------------------------------------------------------------
+;  String Definitions
+;------------------------------------------------------------------------------
+[Strings]
+FILENAME="SAT-A10_usb_cdc"
+MFGNAME="OEM"
+INSTDISK="SAT-A10"
+DESCRIPTION.ST1CDC="GERSAT CF-e CDC USB-to-Serial Port"
+DESCRIPTION.ST2CDC="GERSAT ISS CDC USB-to-Serial Port"
+DESCRIPTION.ST3CDC="SAT-A10"
+SERVICE="USB RS-232 Emulation Driver"
