@@ -2,7 +2,7 @@
 <details>
 <summary>Auxiliares</summary>
 
-[Manual de instalação e configuração do sistema RustDesk](https://github.com/DinizSoft/Suporte/blob/main/Manuais/Auxiliares/Manual%20de%20instala%C3%A7%C3%A3o%20e%20configura%C3%A7%C3%A3o%20do%20sistema%20RustDesk.pdf)
+- [Manual de instalação e configuração do sistema RustDesk.pdf](https://github.com/user-attachments/files/15538549/Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
 
 </details>
 
