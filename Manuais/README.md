@@ -1,15 +1,25 @@
-## Manuais auxiliares para o setor de Suporte:
+## Manuais de uso dos sistemas:
 <details>
-<summary>Auxiliares</summary>
+<summary>ERPrise</summary>
 
-  - RustDesk:
-    
-  [Manual de instalação e configuração do sistema RustDesk.pdf](https://github.com/user-attachments/files/15538549/Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
+- [Manual de abertura e fechamento de turnos-caixa](https://github.com/user-attachments/files/15539498/ERPrise.-.Manual.de.abertura.e.fechamento.de.turnos-caixa.pdf)
+- [Manual para lançamentos de entradas e saídas no turno-caixa](https://github.com/user-attachments/files/15539506/ERPrise.-.Manual.para.lancamentos.de.entradas.e.saidas.no.turno-caixa.pdf)
 
 </details>
 
-## Manuais de uso dos sistemas:
+<details>
+<summary>DinizPDV</summary>
 
-- Sistema ERPrise
+- [Manual de configuração para emissão da NFCe](https://github.com/user-attachments/files/15539510/PDV.-.Manual.de.configuracao.para.emissao.da.NFCe.pdf)
 
-- Sistema PDV CFe
+</details>
+
+
+## Manuais auxiliares para o setor de Suporte:
+<details>
+<summary>Auxiliares</summary>
+    
+- [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15538549/Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
+
+</details>
+
