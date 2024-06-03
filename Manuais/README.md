@@ -2,8 +2,7 @@
 <details>
 <summary>Auxiliares</summary>
 
-[Manual de instalação e configuração do sistema RustDesk](Auxiliares/Manual%20de%20instala%C3%A7%C3%A3o%20e%20configura%C3%A7%C3%A3o%20do%20sistema%20RustDesk.pdf)
-[Teste](http://www.dinizsoft.com.br)
+[Manual de instalação e configuração do sistema RustDesk](Auxiliares/Manual%20de%20instala%C3%A7%C3%A3o%20e%20configura%C3%A7%C3%A3o%20do%20sistema%20RustDesk.pdf){:target="_blank"}
 
 </details>
 
