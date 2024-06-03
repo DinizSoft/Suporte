@@ -1,4 +1,4 @@
-### Manuais auxiliares para o setor de Suporte:
+## Manuais auxiliares para o setor de Suporte:
 <details>
 <summary>Auxiliares</summary>
 
@@ -6,7 +6,7 @@
 
 </details>
 
-### Manuais de uso dos sistemas:
+## Manuais de uso dos sistemas:
 
 - Sistema ERPrise
 
