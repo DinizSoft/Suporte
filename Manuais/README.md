@@ -1,4 +1,5 @@
-## Manuais de uso dos sistemas:
+
+## :books: Manuais dos sistemas Dinizsoft:
 <details>
 <summary>ERPrise - Sistema de Gestão Comercial</summary>
 
@@ -50,7 +51,7 @@
 
 </details>
 
-## Manuais auxiliares para o setor de Suporte:
+## :toolbox: Manuais auxiliares para o setor de Suporte:
 <details>
 <summary>RustDesk - Sistema de Acesso Remoto</summary>
     
