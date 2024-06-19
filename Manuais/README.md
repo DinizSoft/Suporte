@@ -1,9 +1,9 @@
 ## Manuais de uso dos sistemas:
 <details>
-<summary>ERPrise - </summary>
+<summary>ERPrise - Sistema de Gestão Comercial</summary>
 
-- [Manual de abertura e fechamento de turnos-caixa](https://github.com/user-attachments/files/15539498/ERPrise.-.Manual.de.abertura.e.fechamento.de.turnos-caixa.pdf)
-- [Manual para lançamentos de entradas e saídas no turno-caixa](https://github.com/user-attachments/files/15539506/ERPrise.-.Manual.para.lancamentos.de.entradas.e.saidas.no.turno-caixa.pdf)
+- [Manual de abertura e fechamento de turnos-caixa](https://github.com/user-attachments/files/15906064/0001.v.1.0.0.Manual.de.abertura.e.fechamento.de.turno-caixa.do.sistema.ERPrise.pdf)
+- [Manual para lançamentos de entradas e saídas no turno-caixa](https://github.com/user-attachments/files/15906068/0002.v.1.0.0.Manual.para.lancamentos.de.entradas.e.saidas.no.turno-caixa.do.sistema.ERPrise.pdf)
 
 </details>
 
