@@ -47,16 +47,14 @@
 <summary>DBackup - Sistema de Backup automático local e em nuvem</summary>
 
 - [Manual de instalação e configuração do sistema dBackup](https://github.com/user-attachments/files/15905251/0011.Manual.de.instalacao.e.configuracao.do.sistema.dBackup.pdf)
-)
 
 </details>
 
 ## Manuais auxiliares para o setor de Suporte:
 <details>
-<summary>Auxiliares</summary>
+<summary>RustDesk - Sistema de Acesso Remoto</summary>
     
 - [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15905238/0012.Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
-)
 
 </details>
 
