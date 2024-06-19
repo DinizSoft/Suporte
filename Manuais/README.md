@@ -46,7 +46,8 @@
 <details>
 <summary>DBackup - Sistema de Backup automático local e em nuvem</summary>
 
-- [Manual de instalação e configuração do sistema dBackup]
+- [Manual de instalação e configuração do sistema dBackup](https://github.com/user-attachments/files/15905251/0011.Manual.de.instalacao.e.configuracao.do.sistema.dBackup.pdf)
+)
 
 </details>
 
@@ -54,7 +55,8 @@
 <details>
 <summary>Auxiliares</summary>
     
-- [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15538549/Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
+- [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15905238/0012.Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
+)
 
 </details>
 
