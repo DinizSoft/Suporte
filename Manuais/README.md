@@ -81,3 +81,10 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
 
 </details>
 
+<details>
+<summary>Secretaria da Fazenda</summary>
+
+- [Manual de credenciamento para emissão da NFC-e no estado de São Paulo](https://github.com/user-attachments/files/15920283/0007.v.1.0.0.Manual.de.credenciamento.para.emissao.da.NFC-e.no.estado.de.Sao.Paulo.pdf)
+- [Manuais em desenvolvimento]
+
+</details>
