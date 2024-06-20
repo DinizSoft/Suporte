@@ -52,6 +52,23 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
 </details>
 
 ## :toolbox: Manuais auxiliares para o setor de Suporte:
+
+<details>
+<summary>Secretaria da Fazenda</summary>
+
+- [Manual de credenciamento para emissão da NFC-e no estado de São Paulo](https://github.com/user-attachments/files/15920283/0007.v.1.0.0.Manual.de.credenciamento.para.emissao.da.NFC-e.no.estado.de.Sao.Paulo.pdf)
+- [Manuais em desenvolvimento]
+
+</details>
+
+<details>
+<summary>Equipamentos SAT</summary>
+
+- [Manual de instalação e ativação do equipamento SAT da fabricante Control iD](https://github.com/user-attachments/files/15919690/0004.v.1.0.0.Manual.de.instalacao.e.ativacao.do.equipamento.SAT.da.fabricante.Control.iD.pdf)
+- [Manuais em desenvolvimento]
+
+</details>
+
 <details>
 <summary>RustDesk - Sistema de Acesso Remoto</summary>
     
@@ -69,22 +86,6 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
 <details>
 <summary>IB Expert</summary>
 
-- [Manuais em desenvolvimento]
-
-</details>
-
-<details>
-<summary>Equipamentos SAT</summary>
-
-- [Manual de instalação e ativação do equipamento SAT da fabricante Control iD](https://github.com/user-attachments/files/15919690/0004.v.1.0.0.Manual.de.instalacao.e.ativacao.do.equipamento.SAT.da.fabricante.Control.iD.pdf)
-- [Manuais em desenvolvimento]
-
-</details>
-
-<details>
-<summary>Secretaria da Fazenda</summary>
-
-- [Manual de credenciamento para emissão da NFC-e no estado de São Paulo](https://github.com/user-attachments/files/15920283/0007.v.1.0.0.Manual.de.credenciamento.para.emissao.da.NFC-e.no.estado.de.Sao.Paulo.pdf)
 - [Manuais em desenvolvimento]
 
 </details>
