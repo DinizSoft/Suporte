@@ -12,7 +12,7 @@
 <summary>DinizPDV</summary>
 CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônico
 
-- [Manual de configuração para emissão da NFCe](https://github.com/user-attachments/files/15539510/PDV.-.Manual.de.configuracao.para.emissao.da.NFCe.pdf)
+- [Manual de configuração para emissão da NFC-e](https://github.com/user-attachments/files/15957613/0006.v.1.0.0.Manual.de.configuracao.para.emissao.da.NFCe.no.sistema.DinizPDV.pdf)
 
 </details>
 
