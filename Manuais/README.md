@@ -5,6 +5,9 @@
 
 - [Manual de abertura e fechamento de turnos-caixa](https://github.com/user-attachments/files/15906064/0001.v.1.0.0.Manual.de.abertura.e.fechamento.de.turno-caixa.do.sistema.ERPrise.pdf)
 - [Manual para lançamentos de entradas e saídas no turno-caixa](https://github.com/user-attachments/files/15906068/0002.v.1.0.0.Manual.para.lancamentos.de.entradas.e.saidas.no.turno-caixa.do.sistema.ERPrise.pdf)
+- [Manual de geração, importação de arquivos e envio de carga para Balança Toledo Prix através do software MGV](https://github.com/user-attachments/files/15973950/0009.v.1.0.0.Manual.de.geracao.importacao.de.arquivos.e.envio.de.carga.para.Balanca.Toledo.Prix.atraves.do.software.MGV.pdf)
+
+- [Manuais em desenvolvimento]
 
 </details>
 
