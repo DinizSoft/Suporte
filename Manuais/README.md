@@ -65,6 +65,7 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
 <summary>Equipamentos SAT</summary>
 
 - [Manual de instalação e ativação do equipamento SAT da fabricante Control iD](https://github.com/user-attachments/files/15919690/0004.v.1.0.0.Manual.de.instalacao.e.ativacao.do.equipamento.SAT.da.fabricante.Control.iD.pdf)
+- [Manual de desativação do equipamento SAT da fabricante TANCA e JETWAY](https://github.com/user-attachments/files/15972842/0008.V.1.0.0.Manual.de.desativacao.do.equipamento.SAT.da.fabricante.TANCA.e.JETWAY.pdf)
 - [Manuais em desenvolvimento]
 
 </details>
