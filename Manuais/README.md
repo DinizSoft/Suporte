@@ -75,21 +75,11 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
 </details>
 
 <details>
-<summary>RustDesk - Sistema de Acesso Remoto</summary>
+<summary>Utiliários</summary>
     
 - [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15905238/0012.Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
 
-</details>
-
-<details>
-<summary>Database Comparer</summary>
-
 - [Manuais em desenvolvimento]
-
-</details>
-
-<details>
-<summary>IB Expert</summary>
 
 - [Manuais em desenvolvimento]
 
