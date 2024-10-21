@@ -80,9 +80,14 @@ CFe SAT - Cupom Fiscal Eletrônico / NFCe - Nota Fiscal de Consumidor Eletrônic
     
 - [Manual de instalação e configuração do sistema RustDesk](https://github.com/user-attachments/files/15905238/0012.Manual.de.instalacao.e.configuracao.do.sistema.RustDesk.pdf)
 
+#### SPED Fiscal e SPED Contribuições
+
 - [Manual de instalação do validador EFD ICMS IPI - SPED Fiscal](https://github.com/user-attachments/files/17317023/0013.v.1.0.0.Manual.de.instalacao.do.validador.EFD.ICMS.IPI.-.SPED.Fiscal.pdf)
 
 - [Manual de instalação do validador EFD Contribuições - SPED Contribuições](https://github.com/user-attachments/files/17317028/0014.v.1.0.0.Manual.de.instalacao.do.validador.EFD.Contribuicoes.-.SPED.Contribuicoes.pdf)
 
+- [Manual de auxílio para geração e validação do arquivo EFD ICMS IPI - SPED Fiscal](https://github.com/user-attachments/files/17460605/0015.v.1.0.0.Manual.de.auxilio.para.validacao.do.arquivo.EFD.ICMS.IPI.-.SPED.Fiscal.pdf)
+
+- [Manual de auxílio para validação do arquivo EFD Contribuições - SPED Contribuições](https://github.com/user-attachments/files/17460628/0016.v.1.0.0.Manual.de.auxilio.para.validacao.do.arquivo.EFD.Contribuicoes.-.SPED.Contribuicoes.pdf)
 
 </details>
